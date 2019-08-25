@@ -21,7 +21,7 @@ end
 
 def alan_kay_is_known_for
 	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
-
+	
     programmer_hash = {
         :grace_hopper => {
             :known_for => "COBOL",
@@ -81,12 +81,12 @@ def adding_matz
     }
 
     programmer_hash[:yukihiro_matsumoto] = {
-        :known_for => "Ruby",
+        :known_for => "Ruby", 
         :languages => ["LISP", "C"]
     }
 
     programmer_hash
-
+    
 end
 
 def changing_alan
@@ -104,18 +104,18 @@ def changing_alan
             :languages => ["C"]
         }
      }
-     #change what Alan Kay is :known_for to the value of the alans_new_info variable.
+     #change what Alan Kay is :known_for to the value of the alans_new_info variable. 
      alans_new_info = "GUI"
 
      programmer_hash[:alan_kay][:known_for] = alans_new_info
 
      programmer_hash
-
-
+     
+     
 end
 
 def adding_to_dennis
-	programmer_hash =
+	programmer_hash = 
  		{
         :grace_hopper => {
           :known_for => "COBOL",
@@ -129,6 +129,7 @@ def adding_to_dennis
           :known_for => "Unix",
           :languages => ["C"]
         }
-     }
+    }
 
+    programmer_hash[:dennis_ritchie][:languages].push("Assembly")
 end
